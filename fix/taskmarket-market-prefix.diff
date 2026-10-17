@@ -1,0 +1,11 @@
+--- a/chunk-75LS6XS6.js
++++ b/chunk-75LS6XS6.js
+@@ -5609,7 +5609,7 @@
+     `Payload: ${canonicalSubmissionReviewValue(input2.payload)}`
+   ].join("\n");
+ }
+-var MARKET_ACTION_MESSAGE_PREFIX = "taskmarket:market:";
++var MARKET_ACTION_MESSAGE_PREFIX = "taskmarket:";
+ function buildMarketActionMessage(kind, taskId, ...parts) {
+   return [`${MARKET_ACTION_MESSAGE_PREFIX}${kind}`, taskId, ...parts].join(":");
+ }
